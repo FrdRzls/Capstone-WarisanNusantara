@@ -18,18 +18,39 @@ const HIDDEN_GEM = {
         </div>
     </div>
 </div>
-<section id="content-hidden" class="content-hidden">
+
+<section id="content" class="content">
 <div class="text_header">
-                <h2 class="text_title">Hidden Gems di Jawa Barat</h2>
+                <h2 class="text_title">Hidden Gems</h2>
     <div class="container">
-        <div class="card-container-hidden"></div>
+    <div class="services" id="services">
+        <div class="box-services">
+          <div class="box">
+            <i class="fa-solid fa-coins"></i>
+            <h4>Harga Terjangkau</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>Sudah Tersertifikasi</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-people-roof"></i>
+            <h4>Aman dan Ramah</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="card-container"></div>
     </div>
 </section>
 `;
   },
 
   async afterRender() {
-    const wisataContainer = document.querySelector('.card-container-hidden');
+    const wisataContainer = document.querySelector('.card-container');
     const wisata = wisataCard(hiddenGem); // Gunakan hidden_gem dari data
     wisataContainer.innerHTML = wisata;
   },
