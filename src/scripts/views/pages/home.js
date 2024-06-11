@@ -5,7 +5,7 @@ const HOME = {
   async render() {
     return `
         <div class="hero">
-            <img class='img-jumbotron' src='/images/bg.gif'>
+            <img class='img-jumbotron id='overlay' src='/images/bg.gif'>
             <div class='overlay'></div>
             <div class="container">
                 <div class="box-hero">
@@ -20,11 +20,6 @@ const HOME = {
                             <img src="/images/Gunung_Papandayan.jpg" alt="Image 2" class="carousel-image">
                             <img src="/images/Kampung_Adat_Ciptagelar.jpg" alt="Image 3" class="carousel-image">
                         </div>
-                    </div>
-                    <div class="carousel-dots">
-                        <span class="dot active" data-index="0"></span>
-                        <span class="dot" data-index="1"></span>
-                        <span class="dot" data-index="2"></span>
                     </div>
                 </div>
             </div>
@@ -55,27 +50,13 @@ const HOME = {
 
     // Carousel functionality
     const images = document.querySelectorAll('.carousel .carousel-image');
-    const dots = document.querySelectorAll('.carousel-dots .dot');
     let currentIndex = 0;
 
-    function showImage(index) {
-      images[currentIndex].classList.remove('active');
-      dots[currentIndex].classList.remove('active');
-      currentIndex = index;
-      images[currentIndex].classList.add('active');
-      dots[currentIndex].classList.add('active');
-    }
-
     function showNextImage() {
-      const nextIndex = (currentIndex + 1) % images.length;
-      showImage(nextIndex);
+      images[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].classList.add('active');
     }
-
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => {
-        showImage(index);
-      });
-    });
 
     setInterval(showNextImage, 3000); // Change image every 3 seconds
   },

@@ -21,24 +21,24 @@ const HIDDEN_GEM = {
 
 <section id="content" class="content">
 <div class="text_header">
-                <h2 class="text_title">Hidden Gems</h2>
+<h2 class="text_title">Hidden Gems</h2>
     <div class="container">
     <div class="services" id="services">
         <div class="box-services">
           <div class="box">
-            <i class="fa-solid fa-coins"></i>
-            <h4>Harga Terjangkau</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+            <i class="fa-solid fa-leaf"></i>
+            <h4>Suasana Unik</h4>
+            <p>Nikmati ketenangan dan kedamaian yang jauh dari hiruk pikuk kota</p>
           </div>
           <div class="box">
-            <i class="fa-solid fa-certificate"></i>
-            <h4>Sudah Tersertifikasi</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+            <i class="fa-solid fa-people-robbery"></i>
+            <h4>Pengalaman berbeda</h4>
+            <p>Temukan pengalaman yang berbeda dari tempat wisata yang ramai dikunjungi</p>
           </div>
           <div class="box">
-            <i class="fa-solid fa-people-roof"></i>
-            <h4>Aman dan Ramah</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+           <i class="fa-solid fa-binoculars"></i>
+            <h4>Belum diketahui banyak orang </h4>
+            <p>Jadilah salah satu orang pertama yang menemukan hidden gems ini dan ciptakan kenangan indah</p>
           </div>
         </div>
       </div>
