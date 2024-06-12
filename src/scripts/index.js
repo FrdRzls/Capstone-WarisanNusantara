@@ -1,5 +1,6 @@
 import App from './views/app';
 import '../styles/main.css';
+import '../styles/responsive.css';
 
 const app = new App({
   content: document.querySelector('main'),

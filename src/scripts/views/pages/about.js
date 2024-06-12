@@ -29,7 +29,7 @@ const About = {
           <div class="card_Container">
             <div class="card-about">
               <div class="imgBx">
-                <img src="/images/ricky.jpeg" alt="Ricky Nugraha">
+                <img src="/images/ricky.png" alt="Ricky Nugraha">
               </div>
               <div class="content-about">
                 <div class="content-aboutBx">
