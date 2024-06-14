@@ -1,4 +1,4 @@
-import warisanNusantara from '../../data/wisata';
+import warisanNusantara from '../../data/pariwisata';
 import wisataCard from '../templates/template-creator';
 
 const Pariwisata = {

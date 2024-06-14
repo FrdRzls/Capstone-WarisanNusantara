@@ -50,6 +50,12 @@ const HIDDEN_GEM = {
   },
 
   async afterRender() {
+     // Add event listener to "Selengkapnya" button
+     const selengkapnyaButton = document.getElementById('selengkapnyaButton');
+     selengkapnyaButton.addEventListener('click', () => {
+       document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+     });
+     
     const wisataContainer = document.querySelector('.card-container');
     const wisata = wisataCard(hiddenGem); // Gunakan hidden_gem dari data
     wisataContainer.innerHTML = wisata;
