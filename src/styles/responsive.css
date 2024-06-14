@@ -1,6 +1,6 @@
 
 /* Adjustments for screens up to 1200px */
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 991px) and (max-width: 1325px) {
     .hero {
         width: 100%;
         min-height: 65vh;
@@ -53,6 +53,7 @@
     }
     .container_card {
         height: 100vh;
+        gap: 10vh;
     }
     .card__container {
         grid-template-columns: repeat(3, 1fr);
@@ -65,6 +66,32 @@
         min-width: 90%;
         padding-inline: 2.5rem;
     } 
+
+    .footer {
+        margin-top: 35vh;
+        padding: 50px 0;
+        background-color: #0050b3;
+      }
+      
+      .footer .box-footer {
+        display: grid;
+        column-gap: 100px;
+        align-items: center;
+      }
+      
+      .footer .box-footer .box {
+        color: white;
+      }
+      
+      .footer .box-footer .box p {
+        font-size: 14px;
+      }
+      
+      .footer .box-footer .box:nth-child(1) p {
+        font-size: 14px;
+        line-height: 2;
+        margin-top: 10px;
+      }
       
 }
 
@@ -239,7 +266,7 @@
 }
 
 /* Adjustments for screens up to 768px */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
     .hero {
         width: 100%;
         min-height: 45vh;
@@ -317,7 +344,7 @@
 }
 
 /* Adjustments for screens between 768px and 1024px (tablets) */
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
  
 
     .hero {
