@@ -3,6 +3,7 @@
 import UrlParser from '../../routes/url-parser';
 import warisanNusantara from '../../data/wisata'; // Import data warisanNusantara
 
+const GOOGLE_MAPS_API_KEY = 'AIzaSyAcTAZpeD-2cpQH0cWIJ5OFYc0ivimww6Q'; // Ganti dengan API key Google Maps Anda
 
 const DETAIL = {
   async render() {
@@ -48,6 +49,13 @@ const DETAIL = {
                   <div><span><i class="fas fa-money-bill-wave"></i> Ticket Price:</span> ${place.ticket_price}</div>
                   <div><span><i class="fas fa-map-marker-alt"></i> Address:</span> ${place.address}</div>
                 </div>
+                <h3>Location:</h3>
+                <iframe
+                  width="600"
+                  height="450"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=${GOOGLE_MAPS_API_KEY}&q=${encodeURIComponent(place.address)}" allowfullscreen>
+                </iframe>
               </div>
             </div>
           </div>
