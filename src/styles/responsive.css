@@ -1,4 +1,3 @@
-
 /* Adjustments for screens up to 1200px */
 @media screen and (min-width: 991px) and (max-width: 1325px) {
     .hero {
@@ -9,28 +8,36 @@
         padding-top: 50px;
         position: relative;
     }
+
+    
+
     .hero .box-hero .box:nth-child(1) button {
         width: 150px;
     }
+
     .card-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .navbar .box-navbar .menu li a {
         text-decoration: none;
         color: white;
         padding: 10px 10px;
     }
+
     .navbar .box-navbar .menu.menu-active {
         top: 80px;
         opacity: 1;
         border-top: 1px solid white;
     }
+
     .img-jumbotron {
         object-fit: cover;
         width: 100%;
         position: absolute;
         top: -30px;
     }
+
     .navbar .box-navbar .menu {
         display: flex;
         column-gap: 10px;
@@ -49,50 +56,54 @@
     .content {
         padding: 150px 100px 0;
         margin-top: 60px;
-      
+
     }
+
     .container_card {
-        height: 100vh;
+        height: 160vh;
         gap: 10vh;
     }
+
     .card__container {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .card__img {
         min-width: 100%;
         object-fit: cover;
     }
+
     .card__data {
         min-width: 90%;
         padding-inline: 2.5rem;
-    } 
+    }
 
     .footer {
         margin-top: 35vh;
         padding: 50px 0;
         background-color: #0050b3;
-      }
-      
-      .footer .box-footer {
+    }
+
+    .footer .box-footer {
         display: grid;
         column-gap: 100px;
         align-items: center;
-      }
-      
-      .footer .box-footer .box {
+    }
+
+    .footer .box-footer .box {
         color: white;
-      }
-      
-      .footer .box-footer .box p {
+    }
+
+    .footer .box-footer .box p {
         font-size: 14px;
-      }
-      
-      .footer .box-footer .box:nth-child(1) p {
+    }
+
+    .footer .box-footer .box:nth-child(1) p {
         font-size: 14px;
         line-height: 2;
         margin-top: 10px;
-      }
-      
+    }
+
 }
 
 /* Adjustments for screens up to 990px */
@@ -102,6 +113,7 @@
         min-width: 100%;
         margin-top: 50px;
     }
+
     .content {
         padding: 150px 100px 0;
         text-align: center;
@@ -109,6 +121,7 @@
         color: #fff;
         width: 100%;
     }
+
     .img-jumbotron {
         object-fit: cover;
         min-width: 100%;
@@ -118,19 +131,21 @@
         top: -20px;
         background: none;
     }
+
     .hero .box-hero .box:nth-child(1) h1 {
         color: white;
         font-size: 3vw;
         line-height: 1.3;
-      
         margin-top: -55px;
     }
+
     .hero .box-hero .box:nth-child(1) p {
         line-height: 2;
         color: white;
         margin-bottom: 0px;
         font-weight: 100;
     }
+
     .hero .box-hero .box:nth-child(1) button {
         width: 180px;
         height: 50px;
@@ -141,15 +156,18 @@
         cursor: pointer;
         border-radius: 5px;
     }
+
     .hero .box-hero .box:nth-child(1) button:hover {
         background-color: #053e83;
         transition: all 0.3s ease;
     }
+
     .hero .box-hero .box:nth-child(2) img {
         width: 50%;
         border-radius: 50px;
         margin-left: 0px;
     }
+
     .hero {
         width: 100%;
         min-height: 50vh;
@@ -158,9 +176,11 @@
         padding-top: 50px;
         position: relative;
     }
+
     .menu-bar {
         display: block;
     }
+
     .navbar .box-navbar .menu {
         position: absolute;
         flex-direction: column;
@@ -176,76 +196,83 @@
         transition: all 0.3s ease;
         background-color: rgba(0, 80, 179, 0.7);
     }
+
     .navbar .box-navbar .menu.menu-active {
         top: 80px;
         opacity: 1;
         border-top: 1px solid white;
     }
+
     .hero .box-hero {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         row-gap: 10px;
     }
+
     .hero .box-hero-about .box:nth-child(1) h1 {
         font-size: 5vw;
         margin-bottom: 10px;
     }
+
     .hero .box-hero .box:nth-child(1) {
         order: 2;
         text-align: center;
     }
+
     .hero .box-hero-about .box:nth-child(1) p {
         font-size: 14px;
         padding: 0 20px;
     }
+
     .hero .box-hero .box:nth-child(2) img {
         width: 55vw;
     }
+
     .team .title h2 {
         font-size: 24px;
         margin-top: 60px;
     }
-    
-      .carousel-image {
+
+    .carousel-image {
         min-width: 100%;
         max-height: 80%;
         display: none;
         margin-bottom: 10px;
-       
-      }
-      
+
+    }
+
     /* hidden */
     .services {
         width: 100%;
         margin-top: -20px;
-      }
+    }
 
-     
-      .hero .box-hero-hidden .box:nth-child(1) {
+
+    .hero .box-hero-hidden .box:nth-child(1) {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 60px;
-      }
-      
-      .hero .box-hero-hidden .box:nth-child(1) h1 {
+    }
+
+    .hero .box-hero-hidden .box:nth-child(1) h1 {
         color: white;
         font-size: 3vw;
         line-height: 1.3;
         text-align: center;
-      }
-      
-      .hero .box-hero-hidden .box:nth-child(1) p {
+    }
+
+    .hero .box-hero-hidden .box:nth-child(1) p {
         line-height: 2;
         color: white;
         margin-bottom: 20px;
         font-weight: 50px;
         text-align: center;
         font-size: 18px;
-      }
-      
-      .hero .box-hero-hidden .box:nth-child(1) button {
+    }
+
+    .hero .box-hero-hidden .box:nth-child(1) button {
         width: 180px;
         height: 50px;
         background-color: #0050b3;
@@ -256,96 +283,113 @@
         border-radius: 5px;
         margin: 0 auto;
         /* Center horizontally */
-      }
-      
-      .hero .box-hero-hidden .box:nth-child(1) button:hover {
+    }
+
+    .hero .box-hero-hidden .box:nth-child(1) button:hover {
         background-color: #053e83;
         transition: all 0.3s ease;
-      }
+    }
 
 }
 
 /* Adjustments for screens up to 768px */
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .hero {
         width: 100%;
-        min-height: 45vh;
+        min-height: 35vh;
         display: flex;
         align-items: center;
         padding-top: 50px;
         margin-bottom: 30px;
         position: relative;
     }
+
     .card-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; /* optional: add some space between cards */
     }
+
     .hero .box-hero .box:nth-child(1) h1 {
         font-size: 3vw;
         margin-bottom: 20px;
-        margin-top: -30px;
+        
     }
+
     .hero .box-hero .box:nth-child(1) p {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: normal;
+        
     }
+
     .hero .box-hero .box:nth-child(1) button {
         width: 30%;
+        margin-top: 2vh;
     }
+
     .carousel-container {
         width: 100%;
         margin-bottom: 10px;
     }
- 
+
     .card-detail {
         grid-template-columns: 1fr;
     }
+
     .img-detail {
         margin-top: 10px;
     }
+
     .detail-content {
         padding: 0.5rem;
     }
+
     .detail-title,
     .detail-city,
     .detail-rating {
         font-size: 1.5rem;
     }
+
     .content {
-        padding: 100px 50px 0;
-        
+        padding: 50px 50px 0;
+
     }
+
     .card-wrapper {
         flex-direction: column;
     }
+
     .card__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.5rem;
-        
+
     }
+
     .card-detail {
         grid-template-columns: 1fr;
-      }
-    
-      .detail-title {
+    }
+
+    .detail-title {
         font-size: 2rem;
-      }
-    
-      .detail-city {
+    }
+
+    .detail-city {
         font-size: 1.5rem;
-      }
-    
-      .detail-rating {
+    }
+
+    .detail-rating {
         font-size: 1.2rem;
-      }
-    
-      .detail-detail p {
+    }
+
+    .detail-detail p {
         font-size: 0.8rem;
-      }
+    }
     
+
 }
 
 /* Adjustments for screens between 768px and 1024px (tablets) */
 @media screen and (max-width: 768px) {
- 
+
 
     .hero {
         width: 100%;
@@ -354,76 +398,89 @@
         align-items: center;
         padding-top: 50px;
         position: relative;
-      
+
     }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .hero .box-hero .box:nth-child(1) h1 {
         font-size: 4vw;
+        margin-top: -45px;
     }
+
     .hero .box-hero .box:nth-child(1) p {
         font-size: 18px;
+        font-weight: normal;
     }
+
     .hero .box-hero .box:nth-child(1) button {
-        width: 40%;
+        width: 20%;
+        margin-top: 15px;
     }
 
     .carousel-container {
         width: 100%;
         margin-bottom: 20px;
     }
-   
+
     .card-detail {
         grid-template-columns: 1fr;
     }
+
     .img-detail {
         margin-top: 20px;
     }
+
     .detail-content {
         padding: 1rem;
     }
+
     .detail-title,
     .detail-city,
     .detail-rating {
         font-size: 2rem;
     }
+
     .content {
         padding: 100px 80px 0;
         margin-top: 30px;
     }
-  
+
     .card__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
-    
+
     /*  detail */
     .card-wrapper {
         max-width: 95%;
-      }
-    
-      .detail-title {
+    }
+
+    .detail-title {
         font-size: 2rem;
-      }
-    
-      .detail-city {
+    }
+
+    .detail-city {
         font-size: 20px;
-      }
-    
-      .detail-rating {
+    }
+
+    .detail-rating {
         font-size: 1.5rem;
-      }
-    
-      .detail-detail p {
+    }
+
+    .detail-detail p {
         font-size: 0.9rem;
-      }
+    }
 }
 
 /* Adjustments for screens 400px and below */
 /* Adjustments for screens 400px and below */
 @media screen and (max-width: 650px) {
-    html, body {
+
+    html,
+    body {
         margin: 0;
         padding: 0;
         width: 100%;
@@ -439,6 +496,7 @@
         padding-top: 20px;
         position: relative;
         text-align: center;
+       
     }
 
     .hero .box-hero {
@@ -446,17 +504,21 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
-        margin-bottom: 45px;
+        margin-bottom: 55px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
     }
 
     .hero .box-hero .box:nth-child(1) h1 {
         font-size: 4vw;
         margin-bottom: 15px;
+        margin-top: -20px;
     }
 
     .hero .box-hero .box:nth-child(1) p {
-        font-size: 12px;
-        font-weight: normal;
+        font-size: 10px;
+        font-weight: 10px;
     }
 
     .hero .box-hero .box:nth-child(1) button {
@@ -490,8 +552,8 @@
         height: 80px;
         display: none;
         margin-bottom: 25px;
-       
-      }
+
+    }
 
     .card-container {
         display: flex;
@@ -512,21 +574,34 @@
         text-align: center;
         margin-top: 70px;
         margin-bottom: 10px;
-      }
+    }
 
-      .hero .box-hero-hidden .box:nth-child(1) p {
+    .hero .box-hero-hidden .box:nth-child(1) p {
         font-size: 12px;
         text-align: center;
-      }
+    }
 
-      .hero .box-hero-hidden .box:nth-child(1) button {
+    .hero .box-hero-hidden .box:nth-child(1) button {
         width: 100px;
         height: 50px;
         font-size: 10px;
         background-color: #0050b3;
-      }
+    }
+
     
+    .content h2 {
+        font-size: 5vw;
+
+    }
     
+    .content p {
+        font-size: 12px;
+        margin: 20px;
+        margin-bottom: -10px;
+        font-weight: normal;
+    }
+
+
     .card-wrapper {
         display: flex;
         flex-direction: column;
@@ -546,22 +621,39 @@
         min-width: 100%;
         max-height: 100%;
         margin-bottom: 40px;
-      }
-    
-      .detail-title {
+    }
+
+    .detail-title {
         font-size: 1.8rem;
-      }
-    
-      .detail-city {
+    }
+
+    .detail-city {
         font-size: 1.3rem;
-      }
-    
-      .detail-rating {
+    }
+
+    .detail-rating {
         font-size: 1rem;
-      }
-    
-      .detail-detail p {
+    }
+
+    .detail-detail p {
         font-size: 0.7rem;
     }
-    
+
+    /* about */
+      
+      .hero .box-hero-about .box:nth-child(1) h1 {
+        color: white;
+        font-size: 5vw;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+      
+      .hero .box-hero-about .box:nth-child(1) p {
+        font-size: 10px;
+        font-weight: normal;
+     
+      }
+
 }
