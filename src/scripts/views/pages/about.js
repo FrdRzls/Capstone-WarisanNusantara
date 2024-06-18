@@ -74,7 +74,6 @@ const About = {
   },
 
   async afterRender() {
-    // Implementasi afterRender jika diperlukan
   },
 };
 
