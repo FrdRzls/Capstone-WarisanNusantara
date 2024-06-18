@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import warisanNusantara from '../../data/pariwisata';
 import wisataCard from '../templates/template-creator';
 

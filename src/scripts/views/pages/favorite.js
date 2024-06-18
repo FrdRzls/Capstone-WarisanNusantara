@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-nested-ternary */
-import FavoriteWisataIdb from "../../data/favorite-wisata-idb";
-import wisataCard from "../templates/template-creator";
+import FavoriteWisataIdb from '../../data/favorite-wisata-idb';
+import wisataCard from '../templates/template-creator';
 
 const FAVORITE = {
   async render() {
@@ -17,10 +17,10 @@ const FAVORITE = {
   },
   async afterRender() {
     const wisataContainer = document.querySelector('.card-container');
-    const favoriteWisata=  await FavoriteWisataIdb.getAllWisata()
+    const favoriteWisata = await FavoriteWisataIdb.getAllWisata();
     console.log(favoriteWisata);
     const wisata = wisataCard(favoriteWisata);
     wisataContainer.innerHTML = wisata;
-  }
-}
+  },
+};
 export default FAVORITE; // Export the FAVORITE component

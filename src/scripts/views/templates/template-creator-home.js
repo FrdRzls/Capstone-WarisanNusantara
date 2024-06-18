@@ -1,6 +1,6 @@
 // template-creator-home.js
 const wisataCard = (dataWisata) => {
-    return dataWisata.map((item) => `
+  return dataWisata.map((item) => `
             <article class="card__article">
                 <img src="${item.image}" alt="${item.place_name}" class="card__img">
                 <div class="card__data">
@@ -13,6 +13,7 @@ const wisataCard = (dataWisata) => {
                 </div>
             </article>
         `).join('');
-  };
-  
-  export default wisataCard;
+};
+
+// eslint-disable-next-line no-irregular-whitespace
+export default wisataCard;

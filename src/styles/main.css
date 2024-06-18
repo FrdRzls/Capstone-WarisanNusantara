@@ -739,7 +739,7 @@ body {
 }
 
 .img-detail img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   opacity: 0.8;
 }
@@ -822,7 +822,7 @@ body {
 }
 
 .detail-map:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   border-color: rgba(75, 98, 173, 0.5);
 }
@@ -847,7 +847,7 @@ body {
 
 .favorite-content {
   text-align: center; 
-  margin-bottom: 50vh;
+  margin-bottom: 60vh;
 }
 
 .favorite-content h2 {

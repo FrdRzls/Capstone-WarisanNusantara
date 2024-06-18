@@ -1,11 +1,12 @@
 /* eslint-disable max-len */
 /* eslint-disable no-nested-ternary */
 import UrlParser from '../../routes/url-parser';
+// eslint-disable-next-line import/extensions
 import warisanNusantara from '../../data/wisata'; // Import data warisanNusantara
 import { createLikeButtonTemplate, createLikedButtonTemplate } from '../templates/template-favorite';
 import LikeButtonInitiator from '../../utils/like-button';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyAcTAZpeD-2cpQH0cWIJ5OFYc0ivimww6Q'; 
+const GOOGLE_MAPS_API_KEY = 'AIzaSyAcTAZpeD-2cpQH0cWIJ5OFYc0ivimww6Q';
 
 const DETAIL = {
   async render() {
@@ -20,7 +21,7 @@ const DETAIL = {
   async afterRender() {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const placeId = url.id;
-    const place = warisanNusantara.find((item) => item.id === parseInt(placeId, 10)); 
+    const place = warisanNusantara.find((item) => item.id === parseInt(placeId, 10));
     console.log(place);
 
     const likeButtonContainer = document.querySelector('#likeButtonContainer');
@@ -96,7 +97,6 @@ const DETAIL = {
       const mapIframe = document.querySelector('.map');
       mapIframe.style.width = '100%';
       mapIframe.style.height = '100%';
-
     } else {
       document.querySelector('.loading').innerText = 'Place not found!';
     }

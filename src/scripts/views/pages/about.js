@@ -24,7 +24,7 @@ const About = {
           <div class="card_Container">
             <div class="card-about">
               <div class="imgBx">
-                <img src="/images/Ricky.png" alt="Ricky Nugraha">
+                <img src="/images/ricky.png" alt="Ricky Nugraha">
               </div>
               <div class="content-about">
                 <div class="content-aboutBx">
@@ -46,7 +46,7 @@ const About = {
                   <h3>Farid Rizal <br><span>UI/UX Designer & back end</span></h3>
                 </div>
                 <ul class="sci">
-                  <li style="--i: 1"><a href="https://www.instagram.com/farid_rizals/?next=%2F"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li style="--i: 1"><a href="https://www.instagram.com/farid_rizals/"><i class="fa-brands fa-instagram"></i></a></li>
                   <li style="--i: 2"><a href="https://github.com/FrdRzls"><i class="fa-brands fa-github"></i></a></li>
                   <li style="--i: 3"><a href="https://www.linkedin.com/in/farid-rizal-setiawan-0b8aa8220/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
@@ -61,9 +61,9 @@ const About = {
                   <h3>Dion Revaldy <br><span>Back-End Web</span></h3>
                 </div>
                 <ul class="sci">
-                  <li style="--i: 1"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li style="--i: 2"><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                  <li style="--i: 3"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li style="--i: 1"><a href="https://www.instagram.com/dionrevaldyp/"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li style="--i: 2"><a href="https://github.com/Dion122"><i class="fa-brands fa-github"></i></a></li>
+                  <li style="--i: 3"><a href="http://www.linkedin.com/in/dion-revaldy-9a0b302a2"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
             </div>
