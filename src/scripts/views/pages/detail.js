@@ -27,7 +27,12 @@ const DETAIL = {
           <div class="card-detail">
             <!-- card left -->
             <div class="img-detail">
-              <img src="${place.image}" alt="${place.place_name}">
+              <img src="${place.image}" alt="${place.place_name}" class="main-image">
+              <div class="img-thumbnails">
+                ${place.thumbnails ? place.thumbnails.map((thumbnail) => `
+                  <img src="${thumbnail}" alt="${place.place_name}" class="thumbnail">
+                `).join('') : ''}
+              </div>
             </div>
             <!-- card right -->
             <div class="detail-content">
@@ -49,18 +54,23 @@ const DETAIL = {
                   <div><span><i class="fas fa-money-bill-wave"></i> Ticket Price:</span> ${place.ticket_price}</div>
                   <div><span><i class="fas fa-map-marker-alt"></i> Address:</span> ${place.address}</div>
                 </div>
-                <h3>Location:</h3>
-                <iframe
-                  width="600"
-                  height="450"
-                  frameborder="0" style="border:0"
-                  src="https://www.google.com/maps/embed/v1/place?key=${GOOGLE_MAPS_API_KEY}&q=${encodeURIComponent(place.address)}" allowfullscreen>
-                </iframe>
+                <div class="detail-map">
+                  <iframe
+                    class="map"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=${GOOGLE_MAPS_API_KEY}&q=${encodeURIComponent(place.place_name)}"
+                    allowfullscreen>
+                  </iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
       `;
+      const mapIframe = document.querySelector('.map');
+      mapIframe.style.width = '100%';
+      mapIframe.style.height = '100%';
     } else {
       document.querySelector('.loading').innerText = 'Place not found!';
     }

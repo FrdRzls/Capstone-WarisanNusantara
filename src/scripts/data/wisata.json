@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "place_name": "Kampung Naga",
+    "city_name": "Tasikmalaya",
+    "description": "Kampung Naga di Tasikmalaya adalah desa adat yang mempertahankan arsitektur dan gaya hidup Sunda tradisional secara autentik.",
+    "descriptionDetail": "Kampung Naga, sebuah destinasi wisata yang menawarkan keunikan budaya Sunda yang masih terjaga keasliannya, menarik perhatian pengunjung dengan rumah adat, pakaian tradisional, dan tradisi sehari-hari yang masih menggunakan bahasa Sunda Kuno. Pengunjung dapat merasakan berbagai kegiatan wisata budaya seperti menenun, membatik, dan belajar tari tradisional Sunda yang kaya akan makna. Terletak di pedalaman, akses ke Kampung Naga hanya dapat dilakukan dengan kendaraan 4x4 atau melalui trekking, menambahkan nuansa petualangan bagi para wisatawan yang ingin merasakan keindahan budaya Sunda yang autentik. Kampung ini juga berkomitmen pada kelestarian lingkungan dengan menjaga ekosistem alami sekitar desa.",
+    "rating": 4.7,
+    "image": "/images/kampung_naga.jpg",
+    "thumbnails": [
+     "/images/kampung_naga1.jpg",
+     "/images/kampung_naga2.jpeg",
+     "/images/kampung_naga3.jpeg"
+      
+    ],
+    "address": "Desa Neglasari, Kecamatan Salawu, Kabupaten Tasikmalaya, Jawa Barat",
+    "operating_hours": "08:00 - 17:00",
+    "ticket_price": "Rp 5.000",
+    "created_at": "2023-01-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 2,
+    "place_name": "Situ Patengan",
+    "city_name": "Bandung",
+    "description": "Situ Patengan di Ciwidey, Bandung, adalah danau alami dengan pemandangan indah dan legenda romantis yang menarik wisatawan.",
+    "descriptionDetail": "Situ Patengan terkenal karena legenda cinta antara Dewi Patengan dan Raden Pamanah, yang katanya menciptakan danau ini dari air mata Dewi Patengan. Di sini, pengunjung bisa menikmati pemandangan indah dari Gunung Wayang dan Gunung Malabar sambil melakukan aktivitas seru seperti berperahu, memancing, atau berkemah. Tempat ini juga mendorong pariwisata berkelanjutan dengan program-program edukasi lingkungan dan upaya pelestarian ekosistem danau.",
+    "rating": 4.5,
+    "image": "/images/Situ_Patengan.jpg",
+    "thumbnails": [
+      "/images/Situ_Patengan1.jpeg",
+      "/images/Situ_Patengan2.jpeg",
+      "/images/Situ_Patengan3.jpeg"
+     ],
+    "address": "Ciwidey, Kabupaten Bandung, Jawa Barat",
+    "operating_hours": "07:00 - 18:00",
+    "ticket_price": "Rp 15.000",
+    "created_at": "2023-02-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 3,
+    "place_name": "Taman Nasional Gunung Halimun",
+    "city_name": "Sukabumi",
+    "description": "Taman Nasional Gunung Halimun Salak di Sukabumi adalah kawasan konservasi dengan keanekaragaman hayati tinggi, termasuk flora dan fauna endemik.",
+    "descriptionDetail": "Taman Nasional Gunung Halimun Salak adalah rumah bagi flora dan fauna langka seperti badak Jawa, owa Jawa, dan bunga bangkai. Dengan berbagai jalur pendakian yang sesuai untuk pendaki pemula maupun berpengalaman, pengunjung dapat menikmati keindahan alamnya. Di sini juga terdapat air terjun menawan seperti Curug Bidadari dan Curug Nangka yang dapat dinikmati oleh para pengunjung. Taman ini aktif dalam program konservasi untuk melindungi ekosistemnya, mengedukasi pengunjung tentang pentingnya pelestarian alam, serta bekerja sama dengan masyarakat lokal untuk menjaga keberlanjutan lingkungan dan budaya setempat.",
+    "rating": 4.4,
+    "image": "/images/Taman_Nasional_Gunung_Halimun_Salak.jpg",
+    "thumbnails": [
+      "/images/Taman_Nasional_Gunung_Halimun_Salak1.jpg",
+      "/images/Taman_Nasional_Gunung_Halimun_Salak2.jpeg",
+      "/images/Taman_Nasional_Gunung_Halimun_Salak3.jpg"
+     ],
+    "address": "Kabupaten Sukabumi, Kabupaten Bogor, dan Kabupaten Lebak, Jawa Barat",
+    "operating_hours": "06:00 - 18:00",
+    "ticket_price": "Rp 25.000",
+    "created_at": "2023-03-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 4,
+    "place_name": "Curug Cikaso",
+    "city_name": "Sukabumi",
+    "description": "Curug Cikaso di Sukabumi adalah air terjun yang menakjubkan dengan tiga aliran utama dan kolam hijau toska yang indah.",
+    "descriptionDetail": "Curug Cikaso menawarkan keunikan dengan tiga aliran air terjun utama, yakni Curug Cikaso, Curug Sodong, dan Curug Kembar. Di bawah air terjun tersebut terdapat kolam alami dengan air berwarna hijau toska yang sangat menyegarkan. Akses menuju Curug Cikaso bisa dilakukan dengan kendaraan pribadi atau ojek motor, memudahkan pengunjung untuk menikmati keindahan alamnya. Tempat ini juga fokus pada pelestarian lingkungan dengan menjaga kebersihan area air terjun dan melibatkan masyarakat setempat dalam upaya konservasi dan pengelolaan wisata.",
+    "rating": 4.6,
+    "image": "/images/Curug_Cikaso.jpg",
+    "thumbnails": [
+      "/images/Curug_Cikaso1.jpg",
+      "/images/Curug_Cikaso2.jpg",
+      "/images/Curug_Cikaso3.jpg"
+     ],
+    "address": "Desa Ciniti, Kecamatan Cibitung, Kabupaten Sukabumi, Jawa Barat",
+    "operating_hours": "07:00 - 17:00",
+    "ticket_price": "Rp 10.000",
+    "created_at": "2023-04-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 5,
+    "place_name": "Kampung Adat Kuta",
+    "city_name": "Ciamis",
+    "description": "Kampung Adat Kuta di Ciamis adalah desa adat dengan rumah tradisional yang mempertahankan kehidupan dan budaya Sunda asli.",
+    "descriptionDetail": "Kampung Adat Kuta memukau dengan arsitektur rumah adatnya yang unik, menggunakan jerami untuk atap dan bambu untuk dinding. Di sini, pengunjung dapat merasakan berbagai tradisi masyarakat setempat, termasuk upacara adat dan permainan tradisional yang memikat. Suasana pedesaan yang tenang dan asri di Kampung Adat Kuta menawarkan pelarian yang sempurna dari keramaian kota. Desa ini juga berkomitmen pada kelestarian budaya dan lingkungan dengan mempraktikkan metode pertanian organik dan upaya pelestarian hutan sekitar.",
+    "rating": 4.4,
+    "image": "/images/Kampung_Adat_Kuta.jpg",
+    "thumbnails": [
+      "/images/Kampung_Adat_Kuta1.jpg",
+      "/images/Kampung_Adat_Kuta2.jpeg",
+      "/images/Kampung_Adat_Kuta3.jpg"
+    ],
+    "address": "Desa Karangpaningal, Kecamatan Tambaksari, Kabupaten Ciamis, Jawa Barat",
+    "operating_hours": "08:00 - 16:00",
+    "ticket_price": "Rp 10.000",
+    "created_at": "2023-05-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 6,
+    "place_name": "Pantai Ujung Genteng",
+    "city_name": "Sukabumi",
+    "description": "Pantai Ujung Genteng di Sukabumi adalah surga pasir putih dengan ombak yang cocok untuk berselancar dan pemandangan eksotis.",
+    "descriptionDetail": "Pantai Ujung Genteng menawarkan pesona ombak besar yang memikat para peselancar. Selain itu, pengunjung dapat menikmati keindahan pemandangan pantai dengan pasir putih dan air laut yang jernih. Pantai ini juga menjadi habitat bagi penyu-penyu yang bertelur, menjadikannya salah satu lokasi penting untuk konservasi penyu di Jawa Barat. Inisiatif konservasi ini melibatkan pengunjung dalam program pelepasan tukik (anak penyu) dan edukasi tentang pentingnya menjaga ekosistem pantai.",
+    "rating": 4.6,
+    "image": "/images/Pantai_Ujung_Genteng.jpg",
+    "thumbnails": [
+      "/images/Pantai_Ujung_Genteng1.jpg",
+      "/images/Pantai_Ujung_Genteng2.jpg",
+      "/images/Pantai_Ujung_Genteng3.jpg"
+    ],
+    "address": "Desa Gunungbatu, Kecamatan Ciracap, Kabupaten Sukabumi, Jawa Barat",
+    "operating_hours": "06:00 - 18:00",
+    "ticket_price": "Rp 15.000",
+    "created_at": "2023-06-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 7,
+    "place_name": "Gunung Papandayan",
+    "city_name": "Garut",
+    "description": "Gunung Papandayan di Garut adalah gunung berapi aktif dengan kawah spektakuler, hutan mati, dan padang edelweiss yang menakjubkan.",
+    "descriptionDetail": "Gunung Papandayan menawarkan pengalaman menakjubkan dengan kawah aktifnya yang mengeluarkan asap belerang. Selain itu, pengunjung dapat melihat fenomena hutan mati yang terbentuk akibat letusan gunung berapi. Di puncak gunung, terhampar padang edelweiss yang luas dan indah, menambah daya tarik Gunung Papandayan sebagai destinasi wisata alam yang unik. Gunung ini juga menerapkan pariwisata berkelanjutan dengan menjaga kebersihan area pendakian, meminimalkan jejak karbon, dan melibatkan komunitas lokal dalam pengelolaan wisata.",
+    "rating": 4.6,
+    "image": "/images/Gunung_Papandayan.jpg",
+    "thumbnails": [
+      "/images/Gunung_Papandayan1.jpg",
+      "/images/Gunung_Papandayan2.jpg",
+      "/images/Gunung_Papandayan3.png"
+
+    ],
+    "address": "Kecamatan Cisurupan, Kabupaten Garut, Jawa Barat",
+    "operating_hours": "24 Jam",
+    "ticket_price": "Rp 30.000",
+    "created_at": "2023-07-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 8,
+    "place_name": "Curug Cibareubeuy",
+    "city_name": "Subang",
+    "description": "Curug Cibareubeuy di Subang adalah air terjun tersembunyi yang menawarkan pemandangan alam yang asri dan sejuk.",
+    "descriptionDetail": "Curug Cibareubeuy memukau dengan keindahannya, dikelilingi oleh hutan lebat dan pepohonan tinggi yang menciptakan suasana sejuk dan asri. Karena masih tergolong sebagai curug tersembunyi, akses ke Curug Cibareubeuy belum banyak dilalui oleh wisatawan, memberikan pengalaman yang alami dan tenang bagi para pengunjung. Di sini, pengunjung dapat menikmati berbagai aktivitas seperti trekking, berenang, dan bersantai di bawah air terjun yang menyejukkan. Tempat ini juga fokus pada pelestarian lingkungan dengan menjaga kebersihan area curug dan mengedukasi pengunjung tentang pentingnya menjaga kelestarian alam.",
+    "rating": 4.6,
+    "image": "/images/Curug_Cibareubeuy.jpg",
+    "thumbnails": [
+      "/images/Curug_Cibareubeuy1.jpeg",
+      "/images/Curug_Cibareubeuy2.jpg",
+      "/images/Curug_Cibareubeuy3.jpg"
+    ],
+    "address": "Desa Cibeusi, Kecamatan Ciater, Kabupaten Subang, Jawa Barat",
+    "operating_hours": "07:00 - 17:00",
+    "ticket_price": "Rp 10.000",
+    "created_at": "2023-08-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 9,
+    "place_name": "Situ Cileunca",
+    "city_name": "Bandung",
+    "description": "Situ Cileunca di Bandung adalah danau buatan yang indah dengan aktivitas air seperti rafting dan perahu dayung.",
+    "descriptionDetail": "Situ Cileunca menawarkan beragam kegiatan air seperti rafting, perahu dayung, dan memancing bagi pengunjungnya. Sambil menikmati kegiatan tersebut, pengunjung dapat juga menikmati pemandangan alam yang menakjubkan, termasuk Gunung Malabar dan Kawah Putih. Untuk kenyamanan pengunjung, tersedia berbagai fasilitas wisata seperti camping ground, restoran, dan toko souvenir di sekitar area danau. Danau ini juga berkomitmen pada pelestarian lingkungan dengan menjaga kebersihan air dan mendukung inisiatif ramah lingkungan seperti pengurangan penggunaan plastik.",
+    "rating": 4.5,
+    "image": "/images/Situ_Cileunca.jpg",
+    "thumbnails": [
+      "/images/Situ_Cileunca1.jpeg",
+      "/images/Situ_Cileunca2.jpg",
+      "/images/Situ_Cileunca3.jpg"
+
+    ],
+    "address": "Pangalengan, Kabupaten Bandung, Jawa Barat",
+    "operating_hours": "07:00 - 18:00",
+    "ticket_price": "Rp 15.000",
+    "created_at": "2023-09-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 10,
+    "place_name": "Curug Malela",
+    "city_name": "West Bandung",
+    "description": "Curug Malela di Bandung Barat adalah air terjun dengan panorama menakjubkan, sering disebut sebagai Niagara mini di Indonesia.",
+    "descriptionDetail": "Curug Malela sering dipanggil sebagai Niagara mini di Indonesia karena kebesaran debit airnya dan pemandangan yang menawan. Menurut legenda, air terjun ini terbentuk dari kutukan seorang putri yang kesombongannya mengubahnya menjadi air terjun. Pengunjung dapat mengakses Curug Malela dengan kendaraan pribadi atau ojek motor, memudahkan mereka untuk menikmati keindahan alamnya. Tempat ini juga fokus pada pelestarian lingkungan dengan menjaga kebersihan air terjun dan melibatkan masyarakat setempat dalam upaya konservasi.",
+    "rating": 4.5,
+    "image": "/images/Curug_Malela.jpg",
+    "thumbnails": [
+        "/images/Curug_Malela1.jpeg",
+        "/images/Curug_Malela2.jpg",
+        "/images/Curug_Malela3.jpg"
+    ],
+    "address": "Desa Cicadas, Kecamatan Rongga, Kabupaten Bandung Barat, Jawa Barat",
+    "operating_hours": "07:00 - 17:00",
+    "ticket_price": "Rp 15.000",
+    "created_at": "2023-10-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 11,
+    "place_name": "Kampung Adat Ciptagelar",
+    "city_name": "Sukabumi",
+    "description": "Kampung Adat Ciptagelar di Sukabumi adalah desa adat yang masih mempraktikkan tradisi agraris dan memiliki rumah tradisional yang unik.",
+    "descriptionDetail": "Kampung Adat Ciptagelar di Sukabumi adalah desa adat yang masih mempraktikkan tradisi agraris dan memiliki rumah tradisional yang unik. Terletak di kaki Gunung Halimun, desa ini mempertahankan budaya nenek moyangnya dengan autentik. Rumah-rumah adat menggunakan material alami seperti bambu dan kayu, menciptakan arsitektur tradisional yang indah dan fungsional. Pola hidup masyarakat yang bergantung pada alam menambahkan keunikan dan daya tarik bagi pengunjung yang ingin merasakan atmosfer pedesaan yang bersejarah. Desa ini juga berkomitmen pada keberlanjutan dengan praktik pertanian organik dan penggunaan energi terbarukan.",
+    "rating": 4.7,
+    "image": "/images/Kampung_Adat_Ciptagelar.jpg",
+    "thumbnails": [
+      "/images/Kampung_Adat_Ciptagelar1.jpeg",
+      "/images/Kampung_Adat_Ciptagelar2.jpg",
+      "/images/Kampung_Adat_Ciptagelar3.jpg"
+      
+  ],
+    "address": "Desa Sirnaresmi, Kecamatan Cisolok, Kabupaten Sukabumi, Jawa Barat",
+    "operating_hours": "08:00 - 17:00",
+    "ticket_price": "Rp 20.000",
+    "created_at": "2023-11-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 12,
+    "place_name": "Situ Gunung",
+    "city_name": "Sukabumi",
+    "description": "Situ Gunung di Sukabumi adalah danau yang terletak di kaki Gunung Gede Pangrango dengan jembatan gantung terpanjang di Asia Tenggara.",
+    "descriptionDetail": "Situ Gunung di Sukabumi adalah danau yang terletak di kaki Gunung Gede Pangrango. Danau ini terkenal karena memiliki jembatan gantung terpanjang di Asia Tenggara, menambah pesonanya sebagai destinasi wisata yang menarik bagi para pengunjung yang mencari petualangan dan keindahan alam yang menakjubkan. Pengelolaan tempat ini berfokus pada kelestarian lingkungan dengan program-program edukasi konservasi, pengelolaan sampah yang baik, dan penggunaan sumber daya secara berkelanjutan.",
+    "rating": 4.6,
+    "image": "/images/Situ_Gunung.jpeg",
+    "thumbnails": [
+      "/images/Situ_Gunung1.jpeg",
+      "/images/Situ_Gunung2.jpg",
+      "/images/Situ_Gunung3.jpg"
+    ],
+    "address": "Desa Sukamanis, Kecamatan Kadudampit, Kabupaten Sukabumi, Jawa Barat",
+    "operating_hours": "06:00 - 18:00",
+    "ticket_price": "Rp 25.000",
+    "created_at": "2023-12-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 13,
+    "place_name": "Pulau Biawak",
+    "city_name": "Indramayu",
+    "description": "Pulau Biawak di Indramayu adalah destinasi wisata yang terkenal dengan keindahan alam bawah laut dan satwa biawak yang unik.",
+    "descriptionDetail": "Pulau Biawak menawarkan pengalaman wisata yang menakjubkan dengan keindahan alam bawah lautnya, menjadikannya tempat favorit bagi penyelam dan pecinta snorkeling. Pulau ini juga dihuni oleh satwa biawak yang unik, yang dapat dilihat berkeliaran di sekitar pulau. Selain itu, pengunjung dapat menikmati pemandangan indah mercusuar tua yang menjadi ikon pulau ini. Pulau ini juga aktif dalam upaya konservasi laut dan pelestarian ekosistemnya dengan melibatkan masyarakat lokal dan wisatawan dalam kegiatan edukasi lingkungan.",
+    "rating": 4.8,
+    "image": "/images/Pulau_Biawak.jpg",
+    "thumbnails": [
+      "/images/Pulau_Biawak1.jpeg",
+      "/images/Pulau_Biawak2.jpg",
+      "/images/Pulau_Biawak3.jpg"
+    ],
+    "address": "Kepulauan Biawak, Kabupaten Indramayu, Jawa Barat",
+    "operating_hours": "24 Jam",
+    "ticket_price": "Rp 50.000",
+    "created_at": "2023-12-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 14,
+    "place_name": "Tebing Citatah",
+    "city_name": "Padalarang",
+    "description": "Tebing Citatah di Padalarang adalah destinasi panjat tebing terkenal dengan formasi batuan kapur yang menantang.",
+    "descriptionDetail": "Tebing Citatah merupakan surga bagi para pemanjat tebing dengan berbagai rute yang menantang, baik untuk pemula maupun yang sudah berpengalaman. Tebing ini terdiri dari formasi batuan kapur yang unik, memberikan pemandangan yang spektakuler bagi pengunjung. Selain panjat tebing, pengunjung juga dapat menikmati trekking di sekitar area dan mengeksplorasi gua-gua alam yang ada. Tempat ini juga berfokus pada pelestarian alam dan pendidikan lingkungan, bekerja sama dengan komunitas lokal untuk menjaga kelestarian tebing dan sekitarnya.",
+    "rating": 4.4,
+    "image": "/images/Tebing_citatah.jpg",
+    "thumbnails": [
+      "/images/Tebing_citatah1.jpeg",
+      "/images/Tebing_citatah2.jpg",
+      "/images/Tebing_citatah3.jpeg"
+    ],
+    "address": "Desa Citatah, Kecamatan Cipatat, Kabupaten Bandung Barat, Jawa Barat",
+    "operating_hours": "06:00 - 18:00",
+    "ticket_price": "Rp 20.000",
+    "created_at": "2024-01-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 15,
+    "place_name": "Green Canyon",
+    "city_name": "Pangandaran",
+    "description": "Green Canyon di Pangandaran adalah destinasi wisata alam dengan sungai berwarna hijau jernih dan tebing-tebing megah.",
+    "descriptionDetail": "Green Canyon menawarkan keindahan alam yang memukau dengan sungainya yang berwarna hijau jernih dan tebing-tebing yang menjulang tinggi. Pengunjung dapat menikmati keindahan tempat ini dengan menyusuri sungai menggunakan perahu atau berenang di dalam air yang sejuk. Kegiatan lain yang populer di sini adalah body rafting, memberikan pengalaman petualangan yang tak terlupakan. Tempat ini juga aktif dalam upaya konservasi dengan menjaga kebersihan sungai dan edukasi tentang pentingnya menjaga ekosistem sungai.",
+    "rating": 4.8,
+    "image": "/images/Green_Canyon.jpg",
+    "thumbnails": [
+      "/images/Green_Canyon1.jpeg",
+      "/images/Green_Canyon2.jpeg",
+      "/images/Green_Canyon3.jpeg"
+    ],
+    "address": "Desa Kertayasa, Kecamatan Cijulang, Kabupaten Pangandaran, Jawa Barat",
+    "operating_hours": "07:00 - 17:00",
+    "ticket_price": "Rp 25.000",
+    "created_at": "2024-02-01",
+    "updated_at": "2024-06-01"
+  },
+  {
+    "id": 16,
+    "place_name": "Sanghyang Heuleut",
+    "city_name": "Ciwidey",
+    "description": "Sanghyang Heuleut di Ciwidey adalah danau kecil yang dikelilingi oleh tebing batu dan vegetasi hijau, menawarkan pemandangan yang menakjubkan dan suasana yang tenang.",
+    "descriptionDetail": "Sanghyang Heuleut adalah destinasi wisata alam yang indah dengan danau kecil yang dikelilingi oleh tebing batu dan vegetasi hijau yang rimbun. Danau ini menawarkan suasana yang tenang dan damai, ideal untuk bersantai dan menikmati keindahan alam. Pengunjung dapat berenang di danau yang jernih atau berjalan-jalan di sekitar area untuk menikmati pemandangan yang menakjubkan. Sanghyang Heuleut juga merupakan tempat yang sempurna untuk fotografi alam karena keindahan dan keunikan landscape-nya. Tempat ini berkomitmen pada pelestarian alam dengan menjaga kebersihan area dan edukasi pengunjung tentang pentingnya menjaga lingkungan.",
+    "rating": 4.4,
+    "image": "/images/Sanghyang_Heuleut.jpg",
+    "thumbnails": [
+      "/images/Sanghyang_Heuleut1.jpg",
+      "/images/Sanghyang_Heuleut2.jpg",
+      "/images/Sanghyang_Heuleut3.jpg"
+    ],
+    "address": "Desa Rajamandala Kulon, Kecamatan Cipatat, Kabupaten Bandung Barat, Jawa Barat",
+    "operating_hours": "06:00 - 18:00",
+    "ticket_price": "Rp 15.000",
+    "created_at": "2024-03-01",
+    "updated_at": "2024-06-01"
+  }
+]
