@@ -8,7 +8,7 @@ const About = {
         <div class="box-hero-about">
             <div class="box">
                 <h1>About Us</h1>
-                <p>Warisan Nusantara Barat adalah sebuah platfom yang berfokus pada mengangkat dan mempromosikan kekayaan budaya dan warisan alam yang unik khususnya didaerah Jawa Barat,
+                <p>Warisan Nusantara adalah sebuah platfom yang berfokus pada mengangkat dan mempromosikan kekayaan budaya dan warisan alam yang unik khususnya didaerah Jawa Barat,
                  Indonesia. Melalui platform ini, kami berkomitmen untuk  memperkenalkan keindahan Pariwsata, budaya, dan tradisi yang khas dari berbagai suku dan komunitas di Jawa Barat kepada dunia.
                 </p>
             </div>
