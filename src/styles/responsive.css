@@ -9,7 +9,7 @@
         position: relative;
     }
 
-
+    
 
     .hero .box-hero .box:nth-child(1) button {
         width: 150px;
@@ -306,20 +306,19 @@
 
     .card-container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        /* optional: add some space between cards */
+        gap: 20px; /* optional: add some space between cards */
     }
 
     .hero .box-hero .box:nth-child(1) h1 {
         font-size: 3vw;
         margin-bottom: 20px;
-
+        
     }
 
     .hero .box-hero .box:nth-child(1) p {
         font-size: 18px;
         font-weight: normal;
-
+        
     }
 
     .hero .box-hero .box:nth-child(1) button {
@@ -384,7 +383,7 @@
     .detail-detail p {
         font-size: 0.8rem;
     }
-
+    
 
 }
 
@@ -497,7 +496,7 @@
         padding-top: 20px;
         position: relative;
         text-align: center;
-
+       
     }
 
     .hero .box-hero {
@@ -508,7 +507,7 @@
         margin-bottom: 55px;
         margin-top: 10px;
         margin-left: 10px;
-
+        
     }
 
     .hero .box-hero .box:nth-child(1) h1 {
@@ -589,12 +588,12 @@
         background-color: #0050b3;
     }
 
-
+    
     .content h2 {
         font-size: 5vw;
 
     }
-
+    
     .content p {
         font-size: 12px;
         margin: 20px;
@@ -649,22 +648,20 @@
     }
 
     /* about */
-
-    .hero .box-hero-about .box:nth-child(1) h1 {
+      
+      .hero .box-hero-about .box:nth-child(1) h1 {
         color: white;
         font-size: 5vw;
         line-height: 1.3;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 10px;
-    }
-
-    .hero .box-hero-about .box:nth-child(1) p {
+      }
+      
+      .hero .box-hero-about .box:nth-child(1) p {
         font-size: 10px;
         font-weight: normal;
-
-    }
-    .detail-map{
-        margin-bottom: 35px;
+     
       }
+
 }

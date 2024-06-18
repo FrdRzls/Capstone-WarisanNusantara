@@ -10,7 +10,7 @@ const wisataCard = (dataWisata) => {
             <i class="fas fa-star"></i>
             <span class="rating">${item.rating}</span>
           </div>
-          <h3>${item.place_name}</h3>
+          <h3><a href="#/detail/${item.id}" class="card__button">${item.place_name}</a> <!-- URL diperbaiki --></h3>
           <p>${item.description}</p>
         </div>
         `;

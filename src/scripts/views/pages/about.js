@@ -8,13 +8,8 @@ const About = {
         <div class="box-hero-about">
             <div class="box">
                 <h1>About Us</h1>
-                <p>WarisanNusantara adalah sebuah platform yang berdedikasi untuk mengangkat dan mempromosikan kekayaan budaya dan
-                warisan Indonesia, yang meliputi seni, budaya, tradisi, serta kekayaan alam yang mempesona.
-                Di Warisan Nusantara, kami berkomitmen untuk melestarikan dan memperkenalkan keindahan serta
-                keunikan Nusantara kepada dunia. Dibangun atas semangat cinta dan kebanggaan akan
-                keberagaman budaya Indonesia, Warisan Nusantara hadir sebagai wadah bagi para pelaku seni,
-                pengrajin, pelestari budaya, dan para pecinta budaya Indonesia untuk berbagi pengetahuan,
-                pengalaman, serta karya-karya yang memukau.
+                <p>Warisan Nusantara Barat adalah sebuah platfom yang berfokus pada mengangkat dan mempromosikan kekayaan budaya dan warisan alam yang unik khususnya didaerah Jawa Barat,
+                 Indonesia. Melalui platform ini, kami berkomitmen untuk  memperkenalkan keindahan Pariwsata, budaya, dan tradisi yang khas dari berbagai suku dan komunitas di Jawa Barat kepada dunia.
                 </p>
             </div>
             </div>
@@ -29,16 +24,16 @@ const About = {
           <div class="card_Container">
             <div class="card-about">
               <div class="imgBx">
-                <img src="/images/ricky.png" alt="Ricky Nugraha">
+                <img src="/images/Ricky.png" alt="Ricky Nugraha">
               </div>
               <div class="content-about">
                 <div class="content-aboutBx">
-                  <h3>Ricky Nugraha<br><span>Web Analyst</span></h3>
+                  <h3>Ricky Nugraha<br><span>Front-end</span></h3>
                 </div>
                 <ul class="sci">
-                  <li style="--i: 1"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li style="--i: 2"><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                  <li style="--i: 3"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li style="--i: 1"><a href="https://www.instagram.com/rricky_nugraha?igsh=aWdkbjdtYXQyMjdn"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li style="--i: 2"><a href="https://github.com/Rickynugraha12"><i class="fa-brands fa-github"></i></a></li>
+                  <li style="--i: 3"><a href="https://www.linkedin.com/in/ricky-nugraha-91929b284/?originalSubdomain=id"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -48,12 +43,12 @@ const About = {
               </div>
               <div class="content-about">
                 <div class="content-aboutBx">
-                  <h3>Farid Rizal <br><span>UI/UX Designer</span></h3>
+                  <h3>Farid Rizal <br><span>UI/UX Designer & back end</span></h3>
                 </div>
                 <ul class="sci">
-                  <li style="--i: 1"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li style="--i: 2"><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                  <li style="--i: 3"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li style="--i: 1"><a href="https://www.instagram.com/farid_rizals/?next=%2F"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li style="--i: 2"><a href="https://github.com/FrdRzls"><i class="fa-brands fa-github"></i></a></li>
+                  <li style="--i: 3"><a href="https://www.linkedin.com/in/farid-rizal-setiawan-0b8aa8220/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
             </div>

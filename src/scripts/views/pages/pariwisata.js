@@ -37,7 +37,6 @@ const Pariwisata = {
     selengkapnyaButton.addEventListener('click', () => {
       document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
     });
-
     const wisataContainer = document.querySelector('.card-container');
     console.log(warisanNusantara);
     const wisata = wisataCard(warisanNusantara);
